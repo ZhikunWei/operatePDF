@@ -4,6 +4,9 @@ __author__ = '99k'
 # 安装PyPDF2： pip3 install PyPDF2
 # 利用PyPDF2模块合并同一文件夹下的所有PDF文件, 文件名会按照升序排列合并
 # 只需修改存放PDF文件的文件夹变量：file_dir 和 输出文件名变量: outfile
+# reference: \url{https://www.jianshu.com/p/82485e3e46e1}
+#           \url{https://pythonhosted.org/PyPDF2/}
+#           \url{https://blog.csdn.net/FairyTale__/article/details/89036889}
 
 import os
 from PyPDF2 import PdfFileReader, PdfFileWriter
